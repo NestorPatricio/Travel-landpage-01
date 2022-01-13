@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #000000;
+}
+
+.bg-calipso {
+    background-color: #0dcaf0;
+}
+
+/* Quienes somos */
+
+#Quienes-somos h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#Quienes-somos i {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#Quienes-somos p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+/* Destacados */
+
+#Destacados img {
+    height: 150px;
+}
+
+#Destacados h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#Destacados p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
