@@ -1,13 +1,22 @@
+/* Ajustes generales */
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 .bg-calipso {
     background-color: #0dcaf0;
+}
+
+/* Nav */
+
+nav a:first-child {
+    font-weight: 400;
 }
 
 /* Quienes somos */
@@ -25,7 +34,6 @@ body {
 #Quienes-somos p {
     font-size: 14px;
     font-weight: 300;
-    color: #FFFFFF;
 }
 
 /* Destacados */
@@ -42,13 +50,11 @@ body {
 #Destacados h4 {
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF;
 }
 
 #Destacados p {
     font-size: 14px;
     font-weight: 300;
-    color: #FFFFFF;
 }
 
 /* Contacto */
@@ -58,3 +64,14 @@ body {
     font-weight: 400;
 }
 
+#Contacto label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-calipso {
+    color: #FFFFFF;
+    font-weight: 400;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+}
