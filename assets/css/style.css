@@ -30,6 +30,11 @@ body {
 
 /* Destacados */
 
+#Destacados h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
 #Destacados img {
     height: 150px;
 }
@@ -45,3 +50,11 @@ body {
     font-weight: 300;
     color: #FFFFFF;
 }
+
+/* Contacto */
+
+#Contacto h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
