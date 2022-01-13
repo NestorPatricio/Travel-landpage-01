@@ -31,7 +31,7 @@
 
 <body>
 
-    <nav class="container-fluid navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav class="container-fluid navbar fixed-top navbar-expand-lg navbar-dark py-1">
         <div class="container mx-auto">
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/viajes.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -191,7 +191,8 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-calipso">Enviar</button>
+                <button type="submit" class="btn btn-calipso" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enviar</button>
             </form>
         </div>
     </section>
@@ -204,10 +205,19 @@
                 </article>
                 <article class="col-12 col-md-6 px-lg-5 text-center">
                     <div class="ms-auto">
-                        <i class="fab fa-github-square"></i>
-                        <i class="fab fa-linkedin"></i>
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-facebook-square"></i>
+                        <a href="https://github.com/NestorPatricio" target="_blank">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/n%C3%A9stor-patricio-rojas-r%C3%ADos-678b0a21a/"
+                            target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
                     </div>
                 </article>
             </div>
@@ -215,6 +225,22 @@
         </div>
 
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body bg-calipso text-center py-2">
+                    <p class="m-0">¡Gracias por tu consulta!</p>
+                    <p class="m-0">Nos comunicaremos contigo a la brevedad.</p>
+                    <div class="mx-auto py-1">
+                        <img src="./assets/img/viajes.svg" class="btn-close mx-auto" data-bs-dismiss="modal"
+                            aria-label="Close">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Link para habilitar el script JS de JQuery 3.6.0, completo y minificado-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"

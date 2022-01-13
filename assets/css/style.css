@@ -1,5 +1,9 @@
 /* Ajustes generales */
 
+html {
+    scroll-behavior: auto !important;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -87,4 +91,21 @@ footer i {
     font-size: 35px;
     color: #FFFFFF;
     margin: 0 8px;
+}
+
+/* Modal */
+
+#exampleModal p:first-child {
+    font-size: 24px;
+    font-weight: 400;
+}
+#exampleModal p:last-child {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#exampleModal img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
 }
